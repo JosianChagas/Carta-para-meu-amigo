@@ -10,7 +10,7 @@
 
 #container {
   background-size: contain;
-  min-height: 490vh;
+  min-height: 420vh;
   background:
     linear-gradient(#1c1c1c);
 }

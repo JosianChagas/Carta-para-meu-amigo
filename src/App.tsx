@@ -1,7 +1,6 @@
 import React, { type JSX } from 'react';
 import './App.css';
 import imagemfernando1 from './imagens/imagem-fernando 2.jpg';
-import imagemfernando2 from './imagens/imagem-fernando.jpg';
 
 // Tipagem explícita do componente
 const App: React.FC = (): JSX.Element => {
@@ -34,9 +33,6 @@ const App: React.FC = (): JSX.Element => {
             </article>
           ))}
 
-          <div className='photo'>
-            <img src={imagemfernando2} alt='fotosdenós' loading='lazy'></img>
-          </div>
           <div className="card-title">
             <h2 className="secondary-title">
             Sempre que precisar, estarei aqui! <br></br>Nossa amizade é eterna.
