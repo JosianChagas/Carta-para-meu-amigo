@@ -4,15 +4,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Boba nova;
   font-style: italic;
 }
 
 #container {
   background-size: contain;
-  min-height: 420vh;
+  min-height: 410vh;
   background:
     linear-gradient(#1c1c1c);
+}
+
+@media (max-width: 768px) {
+  #container {
+    min-height: 100vh; /* ou auto */
+    height: auto;
+  }
 }
 
 .cabecalho {
@@ -28,8 +34,6 @@
 }
 
 .central-title {
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(15px);
   background-color: rgba(52, 49, 49, 0.8);
   text-align: center;
   font-size: 1.5rem;
